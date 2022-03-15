@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <section class="calculator-window" data-window draggable="false">
+        <section class="calculator-window-bar" data-window-bar></section>
+        <section class="calculator-window-content">
+            <section class="calculator-display">
+                <p class="calculator-equation" id="equation">
+                   <!-- <span class="text-grey">&nbsp;990</span>
+                   <span class="text-orange">&nbsp;+</span>
+                   <span class="text-grey">&nbsp;9</span> -->
+                </p>
+                <p class="calculator-result" id="result">0</p>
+            </section>
+            <section class="calculator-buttons">
+                <div class="operator-orange" id="operator">( )</div>
+                <div class="operator-orange" id="operator">+/-</div>
+                <div class="operator-orange" id="operator" data-value="%">%</div>
+                <div class="operator-orange" id="operator" data-value="/">/</div>
+                <div class="number-grey" id="number" data-value="7">7</div>
+                <div class="number-grey" id="number" data-value="8">8</div>
+                <div class="number-grey" id="number" data-value="9">9</div>
+                <div class="operator-orange" id="operator" data-value="*">*</div>
+                <div class="number-grey" id="number" data-value="4">4</div>
+                <div class="number-grey" id="number" data-value="5">5</div>
+                <div class="number-grey" id="number" data-value="6">6</div>
+                <div class="operator-orange" id="operator" data-value="-">-</div>
+                <div class="number-grey" id="number" data-value="1">1</div>
+                <div class="number-grey" id="number" data-value="2">2</div>
+                <div class="number-grey" id="number" data-value="3">3</div>
+                <div class="operator-orange" id="operator" data-value="+">+</div>
+                <div class="number-grey" id="number" data-value="0">0</div>
+                <div class="number-grey" id="number" data-value=".">.</div>
+                <div class="operator-red" id="operator" data-value="<"><</div>
+                <div class="operator-green" id="operator" data-value="=">=</div>
+            </section>
+        </section>
+    </section>
+    <script src="./calculator.js"></script>
+</body>
+</html>
